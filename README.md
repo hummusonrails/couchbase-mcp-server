@@ -9,6 +9,14 @@ With this server you can use commands like:
 * `Get me the latest 5 documents from my_bucket`
 * `Summarize the latest 5 orders from the orders bucket for me`
 
+## Example
+
+The following screenshot shows the MCP server in action with the Claude Desktop client. The user issues a general request in plain English and the MCP server translates it into a SQL++ query that is executed against the Couchbase Capella cluster. The results are then returned to the user in a readable format.
+
+<p>
+    <img src="claude_screenshot.png" alt="Example Screenshot of the MCP server working in Claude" width="50%">
+</p>
+
 ## Setup
 
 1. Clone the repository and install dependencies:
